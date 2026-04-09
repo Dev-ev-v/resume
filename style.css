@@ -4,28 +4,27 @@ body {
 
 .container {
   display: flex;
-  flex-flow: wrap row;
+  flex-flow: wrap column;
   min-height: 100vh;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 #pt1 {
-  width: 30%;
   background: black;
   color: white;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 #pt2 {
-  flex: 1;
   background: white;
   color: black;
-  padding: 20px;
-  box-sizing: border-box;
-}
 
 #short-description {
   color: blue;
+}
+
+div {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
