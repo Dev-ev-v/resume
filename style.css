@@ -27,7 +27,12 @@ font-size: 0.95rem;
 overflow-wrap: break-word;
  }
 
-
+#profile-picture {
+border-radius: 50%;
+  object-fit: cover;
+  width: 0.3rem;
+  max-width: 200px;
+}
 
 #container {
   display: flex;
