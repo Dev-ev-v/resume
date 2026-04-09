@@ -1,15 +1,40 @@
+html {
+font-size: 1rem;
+}
+
 body {
   margin: 0;
 }
 
+div {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+p {
+font-size: 0.6rem;
+}
+
+h2 {
+font-size: 1.2rem;
+}
+
+h4 {
+font-size: 0.95rem;
+}
+
+ h1, h2, h3, h4, h5, p {
+overflow-wrap: break-word;
+ }
+
+
+
 #container {
   display: flex;
-  min-height: 100vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
 }
 
 #pt1 {
+  width: 40%;
   background: black;
   color: white;
 }
@@ -22,8 +47,3 @@ body {
   color: blue;
 }
 
-div {
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-}
