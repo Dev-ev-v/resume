@@ -4,7 +4,10 @@ body {
 
 .container {
   display: flex;
+  flex-flow: wrap row;
   min-height: 100vh;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #pt1 {
