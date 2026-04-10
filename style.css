@@ -1,5 +1,5 @@
 html {
-font-size: 1rem;
+font-size: 16px;
 }
 
 body {
@@ -9,10 +9,6 @@ body {
 div {
   padding: 20px;
   box-sizing: border-box;
-}
-
-li {
-color: blue;
 }
 
 p {
@@ -27,14 +23,22 @@ h4 {
 font-size: 0.95rem;
 }
 
+h2 {
+  margin-top: 20px;
+}
+
+p, li {
+  margin-bottom: 8px;
+}
+
  h1, h2, h3, h4, h5, p, li {
 overflow-wrap: break-word;
  }
 
 #profile-picture {
-border-radius: 50%;
-  object-fit: cover;
+  border-radius: 50%;
   width: 150px;
+  height: 150px;
 }
 
 #container {
@@ -48,10 +52,15 @@ border-radius: 50%;
 }
 
 #pt2 {
+  width: 60%;
   background: white;
   color: black;
-
-#short-description {
-  color: blue;
 }
 
+#short-description {
+  color: #4dabf7;
+}
+
+#pt1 li {
+color: #4dabf7;
+}
