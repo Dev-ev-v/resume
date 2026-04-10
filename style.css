@@ -66,10 +66,4 @@ h1, h2, h3, h4, h5, p, li {
   #pt1, #pt2 {
     width: 100%;
   }
-  }
-@media print {
-  * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
 }
