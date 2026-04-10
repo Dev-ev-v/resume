@@ -57,13 +57,3 @@ h1, h2, h3, h4, h5, p, li {
 #pt1 li {
   color: var(--primary);
 }
-
-@media (max-width: 768px) {
-  #container {
-    flex-direction: column;
-  }
-
-  #pt1, #pt2 {
-    width: 100%;
-  }
-}
